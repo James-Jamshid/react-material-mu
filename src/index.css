@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 130%;
+  /* or 73px */
+  letter-spacing: -0.01em;
+
+  color: rgba(255, 255, 255, 0.895);
+}
+p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+
+  color: rgba(255, 255, 255, 0.4);
+}
+h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  /* box-shadow: 0 0 10px #000; */
+}
+h4:hover {
+  color: green;
+  transform: scale(1);
+  transition: all 200ms ease;
+}
+#FamilyBtn {
+  width: 88px;
+  height: 30px;
+  left: 22px;
+  top: 141px;
+
+  background: rgba(255, 255, 255, 0.2);
+}
+#FamilyBtn:hover {
+  background-color: green;
+  transform: scale(1);
+  transition: all 200ms ease;
+}
+
+#icons {
+  cursor: pointer;
+  border: none;
+  /* width: 30px; */
+  /* border-radius: 12px; */
+
+  align-items: center;
+  justify-content: center;
+}
+#icons:hover {
+  border: 1px solid black;
+  background-color: #6db6f2;
+
+  border-radius: 8px;
+  transition: all 200ms ease;
+}
